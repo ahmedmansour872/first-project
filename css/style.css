@@ -90,7 +90,7 @@
 } 
 @media (max-width: 576px) { 
     .contanier{
-        width: 325px;
+        width: 250px;
     }
 }
 
@@ -135,8 +135,8 @@
 
 .spinner{
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 25%;
+    left: 30%;
 }
 
 .spinner > div{
@@ -561,7 +561,7 @@
 
 .header .overlay .welcome h2{
     color: rgb(209, 209, 209);
-    width: 400px;
+    width: 350px;
 }
 
 .header .overlay .welcome h2 span{
