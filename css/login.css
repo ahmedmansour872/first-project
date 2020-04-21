@@ -1,0 +1,232 @@
+.ion{
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+}
+.spinner{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.spinner > div{
+    border-radius: 50%;
+    border: 4px solid transparent;
+    position: absolute;
+    -webkit-animation: rotation 1s linear infinite;
+    -moz-animation: rotation 1s linear infinite;
+    -o-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+
+.spinner .one{
+    top: 107px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    border-left:4px solid rgba(160, 101, 12,1);
+}
+.spinner .two{
+    top: 84px;
+    left: 120px;
+    width: 100px;
+    height: 100px;
+    -webkit-animation-duration: 1.15s;
+    -moz-animation-duration: 1.15s;
+    -o-animation-duration: 1.15s;
+    animation-duration: 1.15s;
+    border-top:4px solid rgba(160, 101, 12,1);
+}
+
+.spinner .three{
+    top: 53px;
+    left: 90px;
+    width: 150px;
+    height: 150px;
+    -webkit-animation-duration: 1.3s;
+    -moz-animation-duration: 1.3s;
+    -o-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    border-right:4px solid rgba(160, 101, 12,1);
+}
+
+.spinner .four{
+    top: 31px;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+    -webkit-animation-duration: 1.45s;
+    -moz-animation-duration: 1.45s;
+    -o-animation-duration: 1.45s;
+    animation-duration: 1.45s;
+    border-bottom:4px solid  rgba(160, 101, 12,1);
+}
+
+.spinner .five{
+    top: 13px;
+    left: 30px;
+    width: 250px;
+    height: 250px;
+    -webkit-animation-duration: 1.6s;
+    -moz-animation-duration: 1.6s;
+    -o-animation-duration: 1.6s;
+    animation-duration: 1.6s;
+    border-left:4px solid  rgba(160, 101, 12,1);
+}
+
+.spinner .six{
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    -webkit-animation-duration: 1.75s;
+    -moz-animation-duration: 1.75s;
+    -o-animation-duration: 1.75s;
+    animation-duration: 1.75s;
+    border-top:4px solid  rgba(160, 101, 12,1);
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+:focus{
+    outline: none;
+}
+.login{
+    position: relative; 
+}
+
+.login form{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    text-align: center;
+    background-color: #EEE;
+    box-shadow: 6px 6px 6px #DDD,-4px -4px 6px #DDD;
+}
+
+.login form > .border-left{
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+.login form > .border-left:first-child{
+    margin-top: 30px;
+}
+
+.login form .border-left input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #CCC;
+    width: 100%;
+    padding: 10px 0;
+    color: rgba(160, 101, 12,1);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.login form .border-left .name + span{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgba(160, 101, 12,1);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.login form .border-left:hover .nam{
+    width: 100%;
+}
+
+.login form .border-left .email + span,
+.login form .border-left .password + span{
+    position: absolute;
+    bottom: 19px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: rgba(160, 101, 12,1);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.login form .border-left:hover .emai,
+.login form .border-left:hover .pass{
+    width: 100%;
+    left: 0;
+}
+.login form .border-left .number + span{
+    position: absolute;
+    bottom: 19px;
+    left: 100%;
+    width: 0;
+    height: 3px;
+    background-color: rgba(160, 101, 12,1);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.login form .border-left:hover .num{
+    width: 100%;
+    left: 0;
+} 
+
+.btn button{
+    padding: 5px 55px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border: 1px solid #AAA;
+}
+.btn button:hover {
+    background-color:rgba(160, 101, 12,1);
+}
+.btn button:hover a{
+    color: #FFF;
+}
+.btn button a{
+    text-decoration: none;
+    color: rgba(160, 101, 12,1);
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.login form .border-left .na{
+    position: absolute;
+    top: 9px;
+    left: -1px;
+    font-size: 16px;
+    color: #CCC;
+}
+
+.login form .border-left input:focus + .na{
+    left: -15px;
+}
+
+

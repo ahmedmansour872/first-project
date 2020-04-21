@@ -1,0 +1,1083 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/*start section Single Coures*/
+
+.single-coures{
+    margin: 50px 0;
+}
+
+.single-coures .head .images{
+   float: left;
+   width: 65%;
+   margin-right: 2%;
+   position: relative;
+   height: 400px;
+}
+
+.single-coures .head .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.single-coures .head .images .free{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(160, 101, 12, 1);
+    border-radius: 50%;
+}
+
+.single-coures .head .images .free h5{
+    color: #FFF;
+    text-align: center;
+    line-height: 60px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.single-coures .head .images .veiw{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(160, 101, 12, 1);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.single-coures .head .images .veiw i{
+    color: #FFF;
+    line-height: 40px;
+}
+
+.single-coures .head .images .veiw p{
+    color: #FFF;
+    margin-top: -6px;
+}
+
+.single-coures .head .features{
+    float: left;
+    width: 33%;
+    background-color: #212121;
+    height: 370px;
+}
+
+.single-coures .head .features h2{
+    margin: 20px 20px;
+    color: rgba(160, 101, 12, 1);
+}
+
+.single-coures .head .features .icon{
+    padding: 0 20px;
+}
+
+.single-coures .head .features .icon i{
+    float: left; 
+    color: rgba(160, 101, 12, 1);
+    margin-right: 20px;
+}
+
+.single-coures .head .features .icon span:first-of-type{
+    color: #777;
+}
+
+.single-coures .head .features .icon .right{
+    float: right;
+    color: #777;
+}
+
+/*End Section Single Coures*/
+
+
+/*Start Section Contant*/
+
+.contant{
+    margin: 50px 0;
+}
+
+.contant .main-contant{
+    float: left;
+    width: 65%;
+}
+
+/*Start Section head*/
+
+.contant .main-contant .head{
+    float: left;
+}
+
+.contant .main-contant .head .images{
+    width: 10%;
+    height: 70px;
+    float: left;
+}
+
+.contant .main-contant .head .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.contant .main-contant .head  .fild{
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(143, 143, 143, 0.7);
+}
+
+.contant .main-contant .head  .fild h5{
+    color: #333;
+    margin: 5px 0;
+    font-weight: 900;
+}
+
+.contant .main-contant .head  .fild p{
+    color: #777;
+}
+
+.contant .main-contant .head  .Chemestry{
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(143, 143, 143, 0.7);
+}
+
+.contant .main-contant .head  .Chemestry h5{
+    color: #333;
+    margin: 5px 0;
+    font-weight: 900;
+}
+
+.contant .main-contant .head  .Chemestry p{
+    color: #777;
+}
+
+.contant .main-contant .head  .Reviews{
+    float: left;
+    height: 100%;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(143, 143, 143, 0.7);
+}
+
+.contant .main-contant .head  .Reviews span{
+    display: inline-block;
+    margin: 5px 0;
+    font-weight: 900;
+}
+
+.contant .main-contant .head  .Reviews h5{
+    display: inline-block;
+    font-weight: 900;
+    margin: 5px 0;
+    color: #333;
+}
+
+.contant .main-contant .head  .Reviews ul{
+    list-style: none;
+}
+
+.contant .main-contant .head  .Reviews ul li{
+    display: inline-block;
+}
+
+.contant .main-contant .head  .Reviews ul li i{
+    color: rgba(160, 101, 12, 1);
+}
+
+.contant .main-contant .head .enroll{
+    float: left;
+    height: 40px;
+    margin-right: 20px;
+    width: 80px;
+    background-color: rgba(160, 101, 12, 1);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contant .main-contant .head .enroll p{
+    color: #FFF;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/*end Section head*/
+
+
+/*Start Section Course Sammary*/
+
+.contant .course-sammary{
+    width: 65%;
+    float: left;
+}
+
+
+.contant .main-contant .course-sammary{
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+}
+
+.contant .main-contant .course-sammary .tab{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contant .main-contant .course-sammary .tab li{
+    float: left;
+    background-color: #DDD;
+    width: 25%;
+    text-align: center;
+    padding: 15px 10px;
+    border: 1px solid rgba(143, 143, 143, 0.7);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+}
+
+.contant .main-contant .course-sammary .tab li.active{
+    background-color: #FFF;
+    color: rgba(160, 101, 12, 1);
+    border-bottom: none;
+    border-right: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.contant .main-contant .course-sammary .tab li.active::before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(160, 101, 12, 1);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.contant .main-contant .course-sammary .tab li.active:hover::before{
+    width: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.contant .main-contant .course-sammary .tab li:last-child{
+    border-right: 1px solid rgba(143, 143, 143, 0.7);
+}
+
+.contant .main-contant .course-sammary > div{
+    min-height: 850px;
+    display: none;
+    border: 1px solid rgba(143, 143, 143, 0.7);
+    border-top: none;
+    padding: 30px;
+}
+
+
+
+.contant .main-contant .course-sammary .active{
+    display: block;
+}
+
+.contant .main-contant .course-sammary .course-details h2{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contant .main-contant .course-sammary .course-details p{
+    color: #777;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.contant .main-contant .course-sammary .course-details h2{
+    margin-top: 10px;
+    color: #333;
+}
+
+.contant .main-contant .course-sammary .course-details ul{
+    list-style-type: none;
+}
+
+.contant .main-contant .course-sammary .course-details ul li{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contant .main-contant .course-sammary .course-details ul li i{
+    font-size: 12px;
+    margin: -1px 10px 0 20px;
+    color: rgb(124, 124, 124);
+}
+
+.contant .main-contant .course-sammary .course-details ul li span{
+    color: rgb(124, 124, 124);
+}
+
+.contant .main-contant .course-sammary .course-details ul li:hover i,
+.contant .main-contant .course-sammary .course-details ul li:hover span{
+    color: rgb(197, 121, 6);
+}
+
+.contant .main-contant .course-sammary .course-down{
+    padding: 50px 20% 30px;
+}
+
+.contant .main-contant .course-sammary .course-down .conta{
+    float: left;
+    width: 100%;
+}
+
+.contant .main-contant .course-sammary .course-down .head ,
+.contant .main-contant .course-sammary .course-down .head2 ,
+.contant .main-contant .course-sammary .course-down .head3{
+    background-color: #DDD;
+    width: 100%;
+    display: block;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contant .main-contant .course-sammary .course-down .head h4,
+.contant .main-contant .course-sammary .course-down .head2 h4,
+.contant .main-contant .course-sammary .course-down .head3 h4{
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-left: 20px;
+    color: #333;
+}
+
+.contant .main-contant .course-sammary .course-down .head i,
+.contant .main-contant .course-sammary .course-down .head2 i,
+.contant .main-contant .course-sammary .course-down .head3 i{
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+    color: #333;
+}
+
+.contant .main-contant .course-sammary .course-down .bod,
+.contant .main-contant .course-sammary .course-down .bod2,
+.contant .main-contant .course-sammary .course-down .bod3{
+    margin: 20px;
+    float: left;
+    width: 100%;
+    display: none;
+}
+
+.contant .main-contant .course-sammary .course-down .bod .left,
+.contant .main-contant .course-sammary .course-down .bod2 .left,
+.contant .main-contant .course-sammary .course-down .bod3 .left{
+    width: 50%;
+    float: left;
+}
+
+.contant .main-contant .course-sammary .course-down .bod .left i,
+.contant .main-contant .course-sammary .course-down .bod2 .left i,
+.contant .main-contant .course-sammary .course-down .bod3 .left i{
+    margin-right: 20px;
+}
+
+.contant .main-contant .course-sammary .course-down .bod .right,
+.contant .main-contant .course-sammary .course-down .bod2 .right,
+.contant .main-contant .course-sammary .course-down .bod3 .right{
+    float: left;
+    width: 50%;
+    margin-top: -10px;
+}
+
+.contant .main-contant .course-sammary .course-down .bod .right span:first-child,
+.contant .main-contant .course-sammary .course-down .bod2 .right span:first-child,
+.contant .main-contant .course-sammary .course-down .bod3 .right span:first-child
+{
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+
+.contant .main-contant .course-sammary .course-down .bod .right span,
+.contant .main-contant .course-sammary .course-down .bod2 .right span,
+.contant .main-contant .course-sammary .course-down .bod3 .right span{
+    background-color: rgba(160,101,12,1);
+    width: 75px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    color: #FFF;
+}
+
+.contant .main-contant .course-sammary .course-down .bod .right i,
+.contant .main-contant .course-sammary .course-down .bod2 .right i,
+.contant .main-contant .course-sammary .course-down .bod3 .right i{
+    margin-left: 30px;
+    color: rgba(160, 101, 12, 1);
+}
+
+.course-sammary .teacher{
+    padding: 20px 50px;
+}
+
+.course-sammary .teacher .imags{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: 200px;
+}
+
+.course-sammary .teacher .imags img{
+    width: 100%;
+    height: 100%;
+}
+
+.course-sammary .teacher .teach{
+    float: left;
+    width: 60%;
+}
+.course-sammary .teacher .teach h2{
+    color: #333;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.course-sammary .teacher .teach p{
+    color: #777;
+    float: left;
+}
+
+.course-sammary .teacher .teach a{
+    float: left;
+    width: 40px;
+    height: 30px;
+    background-color: rgba(160, 101, 12, 1);
+    color: #FFF;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.course-sammary .teacher .teach a:hover{
+    -webkit-animation: rotat .5s ease-in-out;
+    -moz-animation: rotat .5s ease-in-out;
+    -o-animation: rotat .5s ease-in-out;
+    animation: rotat .5s ease-in-out;
+}
+
+@keyframes rotat{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.course-sammary .view ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+.course-sammary .view ul li{
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.course-sammary .view ul li i{
+    color: rgba(160, 101, 12, 1);
+}
+
+.course-sammary .view p{
+    color: #777;
+    margin-top: 10px;
+    font-size: .9em;
+    margin-bottom: 15px;
+}
+
+.course-sammary .view .rate{
+    margin-bottom: 20px;
+}
+
+.course-sammary .view .star{
+    float: left;
+    width: 8%;
+    font-size: 14px;
+}
+
+.course-sammary .view .rateing,
+.course-sammary .view .rateing4,
+.course-sammary .view .rateing3,
+.course-sammary .view .rateing2,
+.course-sammary .view .rateing1{
+    width: 80%;
+    float: left;
+    height: 15px;
+    background-color: #DDD;
+    margin-top: 2px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.course-sammary .view .rateing span,
+.course-sammary .view .rateing4 span,
+.course-sammary .view .rateing3 span,
+.course-sammary .view .rateing2 span,
+.course-sammary .view .rateing1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(160, 101, 12, 1);
+    height: 100%;
+    width: 0;
+    z-index: 9999;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease-in-out;
+    
+}
+
+.course-sammary .view .rateing::before,
+.course-sammary .view .rateing4::before,
+.course-sammary .view .rateing3::before,
+.course-sammary .view .rateing2::before,
+.course-sammary .view .rateing1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(82, 82, 82, 0.5);
+    height: 15px;
+    width: 100%;
+}
+
+.course-sammary .view .rateing::before{
+    width: 100%;
+}
+
+.course-sammary .view .rateing4::before{
+    width: 75%;
+}
+
+.course-sammary .view .rateing3::before{
+    width: 50%;
+}
+
+.course-sammary .view .rateing2::before{
+    width: 25%;
+}
+
+.course-sammary .view .rateing1::before{
+    width: 0;
+}
+
+.course-sammary .view .rateing:hover span{
+    width: 100%;
+}
+
+.course-sammary .view .rateing4:hover .four{
+    width: 75%;
+}
+
+.course-sammary .view .rateing3:hover .three{
+    width: 50%;
+}
+
+.course-sammary .view .rateing2:hover .two{
+    width: 25%;
+}
+
+.course-sammary .view .rateing1:hover .one{
+    width: 0;
+}
+
+.course-sammary .view span{
+    font-size: 14px;
+}
+
+.course-sammary .view .review{
+    margin: 35px 0;
+}
+
+.course-sammary .view .review h2{
+    color: #333;
+    margin: 20px 0;
+}
+
+.course-sammary .view .review .ima{
+    width: 12%;
+    float: left;
+    margin-right: 3%;
+    height: 80px;
+}
+
+.course-sammary .view .review .ima img{
+    width: 100%;
+    height: 100%;
+}
+
+.course-sammary .view .review .inforamat{
+    float: left;
+    width: 80%;
+}
+
+.course-sammary .view .review .inforamat h3{
+    color: #333;
+}
+
+.course-sammary .view .review .inforamat ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.course-sammary .view .review .inforamat ul li{
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.course-sammary .view .review .inforamat ul li i{
+    color: rgba(160, 101, 12, 1);
+}
+
+.course-sammary .view .review .inforamat p{
+    color: #777;
+    line-height: 1.3;
+}
+
+/*End Section Course Sammary */
+
+
+.hr{
+    margin: 12px 0;
+    border-bottom: 1px solid rgba(143, 143, 143, 0.5);
+}
+
+/*start section Related Courses*/
+
+.main-contant .related-courses{
+    margin: 50px 0;
+}
+
+.main-contant .related-courses h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.main-contant .related-courses .related-course{
+    width: 31%;
+    margin-right: 2.333%;
+    text-align: center;
+    border: 1px solid rgba(143, 143, 143, 0.5);
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease-in-out;
+    float: left;
+}
+
+.main-contant .related-courses .related-course:hover{
+    box-shadow: 2px 3px 6px 2px rgba(143, 143, 143, 0.3);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-in-out;
+}
+
+.main-contant .related-courses .related-course:hover .related-course-image::before{
+    background: linear-gradient(to bottom,rgba(48, 48, 48, 0.3),rgba(0,0,0,.6));
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease-in-out;
+    z-index: 999;
+}
+.main-contant .related-courses .related-course .related-course-image{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.main-contant .related-courses .related-course .related-course-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-contant .related-courses .related-course .border-raduis{
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #FFF;
+    border: 3px solid rgba(160, 101, 12, 1);
+    overflow: hidden;
+    z-index: 9999;
+   
+}
+
+.main-contant .related-courses .related-course .border-raduis img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.main-contant .related-courses .related-course p{
+    color: rgba(160, 101, 12, 1);
+    margin: 30px 0 10px;
+    font-weight: 700;
+}
+
+.main-contant .related-courses .related-course h3{
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.main-contant .related-courses .related-course .foot{
+    background-color: #DDD;
+    margin-top: 20px;
+    height: 25px;
+}
+
+.main-contant .related-courses .related-course .foot .people{
+    float: left;
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.main-contant .related-courses .related-course .foot .people i{
+    color: rgba(160, 101, 12, 1);
+    margin-right: 10px;
+}
+
+.main-contant .related-courses .related-course .foot .people span{
+    color: #777;
+}
+
+.main-contant .related-courses .related-course .foot .comment{
+    float: right;
+    margin-right: 15px;
+    line-height: 25px;
+}
+
+.main-contant .related-courses .related-course .foot .comment i{
+    color: rgba(160, 101, 12, 1);
+    margin-right: 10px;
+}
+
+.main-contant .related-courses .related-course .foot .comment span{
+    color: #777;
+}
+
+/*end section Related Courses*/
+
+
+/*Start Section Sidebar*/
+
+.contant .sidebar{
+    width: 32%;
+    float: left;
+    margin-left: 3%;
+}
+
+.contant .sidebar .categ{
+    margin-bottom: 50px;
+    float: left;
+    width: 100%;
+}
+
+.contant .sidebar .categ h2{
+    margin-bottom: 30px;
+}
+
+.contant .sidebar .categ .cat{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.contant .sidebar .categ .cat i{
+    margin-right: 10px;
+    font-size: 13px;
+    float: left;
+    color: #AAA;
+    margin-top: 2px;
+}
+
+.contant .sidebar .categ .cat span:first-of-type{
+    color: #AAA;
+    float: left;
+}
+
+.contant .sidebar .categ .cat span:last-of-type{
+    color: #AAA;
+    float: right;
+}
+
+.contant .sidebar .categ .cat:hover i,
+.contant .sidebar .categ .cat:hover span:first-of-type,
+.contant .sidebar .categ .cat:hover span:last-of-type{
+    color: rgba(160, 101, 12, 1);
+}
+
+/*start Section Recent Course*/
+
+.recent-course{
+    margin: 40px 0;
+    float: left;
+    width: 100%;
+}
+
+.recent-course .recent{
+    width: 100%;
+    margin: 10px 0;
+    float: left;
+}
+
+.recent-course .recent h3{
+    color: #333;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.recent-course .recent .image{
+    width: 35%;
+    float: left;
+    margin-right: 5%;
+    height: 120px;
+}
+
+.recent-course .recent .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.recent-course .recent .info{
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.recent-course .recent .info h4{
+    color: #333;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.recent-course .recent .info p{
+    color: #777;
+    line-height: 1.3;
+}
+
+.recent-course .recent .info .free{
+    color: rgba(160, 101, 12, 1);
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*end Section Recent Course*/
+
+/*start Section Sidebar*/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .single-coures .head .images{
+        width: 100%;
+    }
+
+    .single-coures .head .features{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .contant .main-contant{
+        width: 100%;
+    }
+
+    .contant .main-contant .head .images{
+        width: 20%;
+        height: 125px;
+    }
+
+    .contant .main-contant .head  .fild{
+        width: 35%;
+    }
+
+    .contant .main-contant .head  .Chemestry{
+        width: 35%;
+        border-right: none;
+    }
+
+    .contant .main-contant .head  .Reviews{
+        width: 35%;
+        margin-top: 20px;
+    }
+
+    .contant .main-contant .head .enroll{
+        width: 35%;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    
+    .main-contant .related-courses .related-course{
+        width: 48%;
+        margin-right:4%;
+        margin-top: 20px;
+    }
+
+    .main-contant .related-courses .related-course:nth-child(3){
+        margin-right:0;
+    }
+
+    .contant .sidebar{
+        width: 75%;
+        margin: 40px 0 0 12.5%;
+    }
+
+    
+    .contant .main-contant .course-sammary .course-down{
+        padding: 50px 10% 30px;
+    }
+
+    .contant .main-contant .course-sammary .course-down .bod .left,
+    .contant .main-contant .course-sammary .course-down .bod2 .left,
+    .contant .main-contant .course-sammary .course-down .bod3 .left{
+        width: 40%;
+    }
+
+    .contant .main-contant .course-sammary .course-down .bod .right,
+    .contant .main-contant .course-sammary .course-down .bod2 .right,
+    .contant .main-contant .course-sammary .course-down .bod3 .right{
+        width: 50%;
+    }
+
+    .contant .main-contant .course-sammary .course-down .bod .right span:first-child,
+    .contant .main-contant .course-sammary .course-down .bod2 .right span:first-child,
+    .contant .main-contant .course-sammary .course-down .bod3 .right span:first-child
+    {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 767px) { 
+    .single-coures .head .images{
+        width: 100%;
+    }
+
+    .single-coures .head .features{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .contant .main-contant{
+        width: 100%;
+    }
+
+    .contant .main-contant .head .images{
+        width: 20%;
+        height: 125px;
+    }
+
+    .contant .main-contant .head  .fild{
+        width: 35%;
+    }
+
+    .contant .main-contant .head  .Chemestry{
+        width: 35%;
+        border-right: none;
+    }
+
+    .contant .main-contant .head  .Reviews{
+        width: 35%;
+        margin-top: 20px;
+    }
+
+    .contant .main-contant .head .enroll{
+        width: 35%;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+
+    .course-sammary .view .review .inforamat p{
+        margin-top: 0;
+    }
+
+    .main-contant .related-courses .related-course{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contant .sidebar{
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .contant .main-contant .course-sammary .course-down{
+        padding: 50px 10% 30px;
+    }
+
+    .contant .main-contant .course-sammary .course-down .bod .left,
+    .contant .main-contant .course-sammary .course-down .bod2 .left,
+    .contant .main-contant .course-sammary .course-down .bod3 .left{
+        width: 40%;
+    }
+
+    .contant .main-contant .course-sammary .course-down .bod .right,
+    .contant .main-contant .course-sammary .course-down .bod2 .right,
+    .contant .main-contant .course-sammary .course-down .bod3 .right{
+        width: 50%;
+    }
+
+    .contant .main-contant .course-sammary .course-down .bod .right span:first-child,
+    .contant .main-contant .course-sammary .course-down .bod2 .right span:first-child,
+    .contant .main-contant .course-sammary .course-down .bod3 .right span:first-child
+    {
+        margin-left: 10px;
+    }
+
+}

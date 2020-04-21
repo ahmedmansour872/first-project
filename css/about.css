@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.welcome{
+    margin: 50px 0;
+}
+
+.welcome .h2{
+    font-size: 30px;
+    color: #555;
+}
+
+
+.welcome .inf .info-left{
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 60px;
+}
+
+.welcome .inf .info-left p{
+    line-height: 1.7;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.welcome .inf .info-left h3{
+    color: #555;
+    margin: 10px 0;
+}
+
+.welcome .inf .info-right{
+    float: left;
+    width: 49%;
+}
+
+.welcome .inf .info-right .images{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.welcome .inf .info-right .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.conuter{
+    background-color: #EEE;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .welcome .inf .info-left{
+        width: 100%;
+    }
+    .welcome .inf .info-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .conuter{
+        width: 49%;
+        margin-right: 2%; 
+    }
+    .conuter:nth-child(5){
+        margin-right: 0; 
+    }
+} 
+
+@media (max-width: 575.98px) { 
+    .welcome .inf .info-left{
+        width: 100%;
+    }
+    .welcome .inf .info-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .conuter{
+        width: 100%;
+    }
+}
+
+.devol1{
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/image-overlay.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 70px;
+}
+
+.devol1 .devol2{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    
+}
+
+.devol1 .devol2 h2{
+    margin: 70px 0 20px;
+}
+
+.devol1 .devol2 button{
+    margin-top: 40px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background-color:rgba(160, 101, 12,1);
+    color: #FFF;
+}
+
+.devol1 .devol2 button:hover{
+    background: #DDD;
+    color:rgba(160, 101, 12,1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.welcome .info .image{
+    height: 350px;
+}
+
+.welcome .inf .info-left .lnk{
+    float: left;
+    text-align: center;
+    width: 32%;
+    margin-right: 1%;
+}
+
+.welcome  .lnk i{
+    font-size: 45px;
+    text-align: center;
+    color: rgba(160, 101, 12,1);
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    background-color: #EEE;
+    border-radius: 50%;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.welcome  .lnk a{
+    line-height: 1.5;
+    text-decoration: none;
+    color: #999;
+}
+
+.testim{
+    background-image: url(../images/drop-3698073_1920.jpg);
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    text-align: center;
+}
+
+.testim .t-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+}
+
+.testim .t-overlay .slider > div{
+    display: none;
+}
+
+.testim .t-overlay .slider .active{
+    display: block;
+}
+
+.testim .t-overlay h2{
+    font: bold 30px tahoma;
+    margin: 35px 0;
+}
+
+.testim .t-overlay q{
+    display: inline-block;
+    width: 60%;
+    color: rgb(212, 212, 212);
+    line-height: 1.7;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.testim .t-overlay p{
+    color: rgba(160, 101, 12,1);
+    font-size: 20px;
+    margin-top: 41px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .testim .t-overlay q{
+        width: 60%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .testim .t-overlay q{
+        width: 100%;
+    }
+} 
+@media (max-width: 575.98px) { 
+    .testim .t-overlay q{
+        width: 100%;
+    }
+ }
+

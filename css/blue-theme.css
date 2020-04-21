@@ -1,0 +1,59 @@
+.navbar .top-navbar,.seroll .to-top,.header .overlay .welcome button,.header .overlay .welcome button:hover,
+.pat .per button:hover,.pat .per button,.our-course .arrow button,.teacher .images .image .one,
+.teacher .images .image .two,.teacher .images .image .three,.teacher .images .image .four,
+.conuter .one,.conuter .two,.conuter .three,.conuter .four,.news .latest-new .icon i:hover,
+.news .event .more i:hover,footer .items .link a,footer .items .itme li:hover a::before,.copyright,.option-box i,
+.devol1 .devol2 button,.gallery .master-gallery i:hover,.some-details .details,.expert .speaker-info:hover::before,
+.expert .speaker-info:hover::after,.courses .head .search i,.details .list-view .heade .free,
+.details .grad-view .heade .free,.single-coures .head .images .veiw,.contant .main-contant .head .enroll,
+.contant .main-contant .course-sammary .tab li.active::before,.contant .main-contant .course-sammary .course-down .bod .right span,
+.contant .main-contant .course-sammary .course-down .bod2 .right span,
+.contant .main-contant .course-sammary .course-down .bod3 .right span,.course-sammary .teacher .teach a,.course-sammary .view .rateing span,
+.course-sammary .view .rateing4 span,.course-sammary .view .rateing3 span,.course-sammary .view .rateing2 span,.course-sammary .view .rateing1 span
+{
+    background-color: #009aff;
+}
+
+.navbar .bottom-navbar .links .lin > li:hover a,.navbar .bottom-navbar .links .lin > li a.active,
+.navbar .bottom-navbar .link > li a:hover,.navbar .bottom-navbar .link > li a.active,
+.conuter span,.test span,.testimoaials i,.news .event .info i,footer .items .fa-map-marker-alt,
+footer .items .itme li:hover a,footer .items .inf a,footer .items .information h5,
+.devol1 .devol2 button:hover,.welcome .lnk i,.testim .t-overlay p,.gallery .master-gallery h2,
+.events .event .info,.events .event .calen .icon i:hover,.events .trending-Posts .infor h4
+,.about-event .learn .learn-text .icons:hover i,.expert h4,.expert .speaker-info:hover .information h4
+,.courses .head .icons i.active,.details .list-view .foote .rigth ul li i,.details .grad-view .foote .rigth ul li i,
+.single-coures .head .features h2,.single-coures .head .features .icon i,.contant .main-contant .head  .Reviews ul li i,
+.contant .main-contant .course-sammary .tab li.active,.contant .main-contant .course-sammary .course-details ul li:hover i,
+.contant .main-contant .course-sammary .course-details ul li:hover span,.contant .main-contant .course-sammary .course-down .bod .right i,
+.contant .main-contant .course-sammary .course-down .bod2 .right i,.contant .main-contant .course-sammary .course-down .bod3 .right i
+,.course-sammary .view ul li i,.course-sammary .view .review .inforamat ul li i,.main-contant .related-courses .related-course p,
+.main-contant .related-courses .related-course .foot .people i,.main-contant .related-courses .related-course .foot .comment i,
+.contant .sidebar .categ .cat:hover i,.contant .sidebar .categ .cat:hover span:first-of-type,.contant .sidebar .categ .cat:hover span:last-of-type,
+.recent-course .recent .info .free{
+    color: #009aff;
+}
+
+.about-event .learn .learn-text .icons:hover i{
+    box-shadow: 1px 1px 4px #009aff;
+}
+
+.spinner .one,.spinner .five{
+    border-left:4px solid #009aff;
+}
+
+.spinner .two,.spinner .six{
+    border-top:4px solid #009aff;
+}
+
+.spinner .three{
+    border-right:4px solid #009aff;
+}
+
+.spinner .four,.navbar .bottom-navbar .links .lin > li:hover a,.navbar .bottom-navbar .links .lin > li a.active,
+.navbar .bottom-navbar .link > li a.active,.about-event h2 {
+    border-bottom:4px solid  #009aff;
+}
+.option-box .color-option,.details .list-view .heade .image,.details .list-view .heade .free,.details .grad-view .heade .image
+,.details .grad-view .heade .free,.main-contant .related-courses .related-course .border-raduis{
+    border: 4px solid #009aff;
+}

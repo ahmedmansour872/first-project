@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: tahoma,arial;
+}
+
+/*start section garally*/
+
+.galery{
+    margin: 50px auto;
+    color: #333;
+}
+
+.gallery {
+    margin: auto;
+    width: 60%;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.gallery .master-gallery{
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .master-gallery i{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .6);
+    color: #FFF; 
+}
+
+.gallery .master-gallery i:hover{
+    background-color: rgba(160, 101, 12,1);
+}
+
+.gallery .master-gallery .fa-chevron-left{
+    left: 0;
+}
+
+.gallery .master-gallery .fa-chevron-right{
+    right: 0;
+}
+
+.gallery .master-gallery img{
+    width: 100%;
+}
+
+.gallery .master-gallery h2{
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    color: rgba(160, 101, 12,1);
+    font-size: 30px;
+}
+
+.gallery .master-gallery p{
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    color: rgb(192, 190, 190);
+    width: 400px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.gallery .thumbnails{
+    overflow: hidden;
+}
+
+.gallery .thumbnails img{
+    width: 19.6%;
+    float: left;
+    border: 3px solid #BBB;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-opacity: .3;
+    -moz-opacity: .3;
+    opacity: .3;
+    height: 141px;
+    object-fit: cover;
+}
+
+.gallery .thumbnails img:not(:last-child){
+    margin-right: .5%;
+}
+
+.gallery .thumbnails img.selected{
+    border: 3px solid #ad1f10;
+    opacity: 1;
+}
+
+/*end section garally*/
+
+/*start section events*/
+
+.events{
+    margin: 50px 0;
+}
+
+.events h1{
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.events .eve{
+    width: 70%;
+    float: left;
+}
+
+.events .event{
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+}
+
+.events .event .info{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    color: rgba(160, 101, 12,1);
+}
+
+.events .event .info h4{
+    float: left;
+}
+
+.events .event .info span{
+    float: right;
+}
+
+.events .event .image{
+    width: 100%;
+    margin-bottom: 100px;
+    height: 250px;
+
+}
+
+.events .event .image img{
+    width: 100%;
+}
+
+.events .event .calen{
+    margin-bottom: 50px;
+}
+
+.events .event .calen span{
+    color: #666;
+}
+
+.events .event .calen h2{
+    color: #333;
+    margin: 15px 0;
+}
+
+.events .event .calen .icon{
+    margin-bottom: 20px;
+}
+
+.events .event .calen .icon i{
+    color: #888;
+    margin-left: 20px;
+}
+
+.events .event .calen .icon i:hover{
+    color: rgba(160, 101, 12,1);
+}
+
+.events .event .calen p{
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.events .trending-Posts{
+    float: left;
+    width: 30%;
+}
+
+.events .trending-Posts .float-right{
+    width: 100%;
+    float: left;
+}
+
+.events .trending-Posts .image{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.events .trending-Posts .image img{
+    width: 100%;
+}
+
+
+.events .trending-Posts  h2{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.events .trending-Posts .infor{
+    float: left;
+    width: 48%;
+}
+
+.events .trending-Posts .infor h4{
+    color: rgba(160, 101, 12,1);
+    margin-bottom: 15px;
+}
+
+.events .trending-Posts .infor p{
+    line-height: 1.3;
+    color: #777;
+}
+
+.events .event-desc h2{
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.events .event-desc p{
+    line-height: 1.3;
+    color:#777 ;
+}
+
+.events .event-desc p{
+    margin-top: 15px;
+}
+
+.events .map{
+    margin-top: 50px;
+}
+
+.events .map iframe{
+    width:100%;
+    height:450px;
+    border: none;
+}
+
+/*end section events*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .gallery{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .events .eve{
+        width: 100%;
+    }
+
+    .events .event{
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    .events .trending-Posts{
+        width: 100%;
+    }
+
+    .events .trending-Posts .float-right{
+        width: 46%;
+        margin-right: 4%;
+        margin-bottom: 50px;
+    }
+    
+    .events .trending-Posts .float-right .image{
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    .events .trending-Posts .float-right .infor{
+        width: 50%;
+    }
+
+    .gallery{
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .events .eve{
+        width: 100%;
+    }
+
+    .events .event{
+        width: 100%;
+    }
+
+    .events .trending-Posts{
+        width: 31%;
+        margin-right: 2.3333%;
+    }
+
+    .events .trending-Posts{
+        width: 100%;
+    }
+
+    .events .trending-Posts .float-right{
+        width: 46%;
+        margin-right: 4%;
+        margin-bottom: 50px;
+    }
+    
+    .events .trending-Posts .float-right .image{
+        width: 100%;
+    }
+
+    .events .trending-Posts .float-right .infor{
+        width: 92%;
+        margin-left: 8%;
+    }
+
+    .gallery{
+        width: 100%;
+    }
+} 
+
+@media (max-width: 575.98px) { 
+
+    .events .eve{
+        width: 100%;
+    }
+
+    .events .event{
+        width: 100%;
+    }
+
+    .events .trending-Posts{
+        width: 100%;
+    }
+
+    .events .trending-Posts .float-right{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .events .trending-Posts .float-right .image{
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    .events .trending-Posts .float-right .infor{
+        width: 50%;
+    }
+
+    .gallery{
+        width: 100%;
+    }
+
+ }

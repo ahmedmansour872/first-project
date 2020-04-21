@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: tahoma,arial;
+}
+
+/*start section Contact us*/
+
+.contact-us{
+    padding: 50px 0;
+    background-color: #DDD;
+    text-align: center;
+    height: 650px;
+}
+
+.contact-us h1{
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: #333;
+}
+
+.contact-us .contact{
+    float: left;
+    width: 25%;
+    margin-right: 12.5%;
+    text-align: center;
+}
+
+.contact-us .contact:last-child{
+    margin-right: 0;
+}
+
+.contact-us .contact h3{
+    font-size: 20px;
+    color: #333;
+    margin: 30px 0;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.contact-us .contact span{
+    font-size: 14px;
+    color: rgba(0,0,0,.9);
+    font-size: 15px;
+}
+
+.contact-us .contact p{
+    color: rgba(0,0,0,.6);
+    margin-top: 7px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.contact-us .contact p:last-child{
+    color: rgba(0,0,0,.6);
+    margin-top: 30px;
+}
+
+.contact-us .contact .icon i{
+    color: rgba(160, 101, 12,1);
+    margin-bottom: 30px;
+}
+
+.contact-us .contact button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    text-transform: uppercase;
+    color: rgba(160, 101, 12,1);
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+
+.contact-us .contact button a{
+    text-decoration: none;
+    color: rgba(160, 101, 12,1);
+    width: 100%;
+    height: 100%;
+}
+
+.contact-us .contact button:hover{
+    background-color: rgba(160, 101, 12,1);
+}
+
+.contact-us .contact button:hover a{
+    color: #FFF;
+}
+
+/*end section Contact us*/
+
+/*start section telephone*/
+
+.tele{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.tele h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.tele p{
+    color: rgba(0,0,0,.6);
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.tele form{
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.tele form .input{
+    position: relative;
+}
+
+.tele form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #CCC;
+}
+
+.tele form .input label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.tele form .input input:focus + label{
+    position: absolute;
+    top: -22px;
+    left: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-size: .9em;
+}
+
+.tele form .has-data label{
+    position: absolute;
+    top: -22px;
+    left: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-size: .9em;
+}
+
+.tele form button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0,0,0,.6);
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*end section telephone*/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .contact-us{
+        height: 1300px;
+    }
+    .contact-us .contact{
+        width: 100%;
+    }
+    .contact-us .contact .icon i{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact-us{
+        height: 1350px;
+    }
+    .contact-us .contact{
+        width: 100%;
+    }
+    .contact-us .contact .icon i{
+        margin-top: 50px;
+    }
+} 
+@media (max-width: 575.98px) { 
+    .contact-us{
+        height: 1400px;
+    }
+    .contact-us .contact{
+        width: 100%;
+    }
+    .contact-us .contact .icon i{
+        margin-top: 50px;
+    }
+ }

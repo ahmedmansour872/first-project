@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: tahoma,arial;
+}
+body{
+    height: 4350px;
+}
+
+/*start section courses*/
+
+.courses{
+    margin: 50px 0;
+}
+
+.courses .head{
+    width: 100%;
+}
+
+.courses .head .icons{
+    float: left;
+    width: 47%;
+    margin-right: 6%;
+    background-color: #EEE;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.courses .head .icons i{
+    color: #333;
+    margin-left: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.courses .head .icons i.active{
+    color: rgba(160, 101, 12,1);
+}
+
+.courses .head .icons span{
+    margin-left: 20px;
+    color: #777;
+}
+
+.courses .head .search{
+    float: left;
+    width: 47%;
+    background-color: #EEE;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.courses .head .search input{
+    background-color: #EEE;
+    width: 85%;
+    float: left;
+    height: 50px;
+    border:none;
+    padding: 10px;
+}
+
+.courses .head .search i{
+    background-color: rgba(160, 101, 12,1);
+    width: 15%;
+    float: left;
+    height: 52px;
+    line-height: 50px;
+    color: #FFF;
+    border:none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*end section courses*/
+
+/*start section details*/
+
+.details{
+    margin: 30px 0;
+}
+
+/*start section list-view*/
+
+.details .list-view{
+    width: 100%;
+    float: left;
+    margin-bottom:30px;
+}
+
+.details .list-view:hover{
+    box-shadow: 2px 2px 10px 5px #EEE,-2px -2px 10px 5px #EEE;
+}
+
+.details .list-view .heade{
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 300px;
+    margin-right: 3%;
+}
+
+.details .list-view .heade img{
+    width: 100%;
+    height: 100%;
+}
+
+.details .list-view:hover .heade::before{
+    background: linear-gradient(to bottom,rgba(48, 48, 48, 0.3),rgba(0,0,0,.6));
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999;
+}
+
+.details .list-view .heade p{
+    color: #FFF;
+    position: absolute;
+    top: 65%;
+    left: 11%;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    z-index: 9999;
+}
+
+.details .list-view .heade .image{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid rgba(160, 101, 12,1);
+}
+
+.details .list-view .heade .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.details .list-view .heade .free{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: rgba(160, 101, 12,1);
+    padding: 2px;
+    border: 2px solid rgba(160, 101, 12,1);
+    text-align: center;
+    line-height: 1.8;
+}
+
+.details .list-view .heade .free span{
+    color: #FFF;
+}
+
+.details .list-view .bod{
+    position: relative;
+    float: left;
+    width: 57%;
+    padding: 20px;
+}
+
+.details .list-view .bod .inform{
+    margin: 30px 20px;
+}
+
+.details .list-view .bod .inform h2{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details .list-view .bod .inform p{
+    line-height: 1.5;
+    color: #666;
+}
+
+.details .list-view .foote{
+    width:57%;
+    float: left;
+    height: 40px;
+    padding: 10px 50px;
+}
+
+
+.details .list-view .foote .people{
+    float: left;
+}
+
+.details .list-view .foote .people i{
+    color: #555;
+}
+
+.details .list-view .foote .people span{
+    color: #555;
+}
+
+
+.details .list-view .foote .rigth{
+    float: right;
+}
+
+.details .list-view .foote .rigth ul{
+    list-style-type: none;
+}
+
+.details .list-view .foote .rigth ul li{
+    display: inline-block;
+}
+
+.details .list-view .foote .rigth ul li i{
+    color:rgba(160, 101, 12,1);
+}
+
+
+/*end section list-view*/
+
+
+/*start section grad-view*/
+
+.details .grad-view{
+    width: 31%;
+    float: left;
+    margin-right: 2.333%;
+    margin-bottom: 50px;
+}
+
+.details .grad-view:hover{
+    box-shadow: 2px 2px 10px 5px #EEE,-2px -2px 10px 5px #EEE;
+}
+
+.details .grad-view .heade{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.details .grad-view .heade img{
+    width: 100%;
+    height: 100%;
+}
+
+.details .grad-view:hover .heade::before{
+    background: linear-gradient(to bottom,rgba(48, 48, 48, 0.3),rgba(0,0,0,.6));
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999;
+}
+
+.details .grad-view .heade p{
+    color: #FFF;
+    position: absolute;
+    top: 65%;
+    left: 11%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.details .grad-view .heade .image{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid rgba(160, 101, 12,1);
+}
+
+.details .grad-view .heade .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.details .grad-view .heade .free{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: rgba(160, 101, 12,1);
+    padding: 2px;
+    border: 2px solid rgba(160, 101, 12,1);
+    text-align: center;
+    line-height: 1.8;
+}
+
+.details .grad-view .heade .free span{
+    color: #FFF;
+}
+
+.details .grad-view .bod{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.details .grad-view .bod .inform h2{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details .grad-view .bod .inform p{
+    line-height: 1.5;
+    color: #666;
+}
+
+.details .grad-view .foote{
+    width: 100%;    
+    padding: 10px 20px;
+}
+
+
+.details .grad-view .foote .people{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.details .grad-view .foote .people i{
+    color: #555;
+}
+
+.details .grad-view .foote .people span{
+    color: #555;
+}
+
+
+.details .grad-view .foote .rigth{
+    float: right;
+}
+
+.details .grad-view .foote .rigth ul{
+    list-style-type: none;
+}
+
+.details .grad-view .foote .rigth ul li{
+    display: inline-block;
+}
+
+.details .grad-view .foote .rigth ul li i{
+    color:rgba(160, 101, 12,1);
+}
+
+
+/*end section grad-view*/
+
+
+.details .see-more{
+    color: #333;
+    font-size: 20px;
+    width: 100px;
+    margin: auto;
+}
+
+.details .see-more h5 i{
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    body{
+        height:4710px;
+    }
+    
+    .details .grad-view{
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    .courses .head .icons{
+        display: none;  
+    }
+
+    .courses .head .search{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body{
+        height:4710px;
+    }
+    
+    .details .grad-view{
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    .courses .head .icons{
+        display: none;  
+    }
+
+    .courses .head .search{
+        width: 100%;
+    }
+    
+    .details .list-view .heade{
+        width: 100%;
+    }
+
+    .details .list-view .bod{
+        width: 100%;
+    }
+    
+    .details .list-view .foote{
+        width:100%;
+    }
+} 
+@media (max-width: 575.98px) { 
+    body{
+        height:7460px;
+    }
+
+    .details .grad-view{
+        width: 100%;
+    }
+
+    .courses .head .icons{
+        display: none;  
+    }
+
+    .courses .head .search{
+        width: 100%;
+    }
+
+    .details .list-view .heade{
+        width: 100%;
+    }
+
+    .details .list-view .bod{
+        width: 100%;
+    }
+    
+    .details .list-view .foote{
+        width:100%;
+    }
+}
+
+ /*end section courses*/

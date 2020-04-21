@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: tahoma,arial;
+}
+
+/*Start section Some Details*/
+
+.some-details{
+    -webkit-transform: translateY(-35px);
+    -moz-transform: translateY(-35px);
+    -o-transform: translateY(-35px);
+    transform: translateY(-35px);
+}
+
+.some-details .details{
+    width: 23%;
+    float: left;
+    margin-right: 2.666%;
+    background-color: rgba(160, 101, 12,1);
+    height: 100px;
+}
+
+.some-details .details:last-child{
+    margin-right: 0;
+}
+
+.some-details .details .icon{
+    float: left;
+    width: 35%;
+    position: relative;
+    margin-right: 5%;
+}
+
+.some-details .details .icon i{
+    color: #FFF;
+    height: 50px;
+    line-height: 100px;
+    margin-left: 35%;
+   
+}
+
+.some-details .details .icon span{
+    position: absolute;
+    top: 40px;
+    left: 83px;
+    color:#FFF;
+}
+
+.some-details .details .info{
+    float: left;
+    width:60% ;
+    margin-top: 20px;
+}
+
+.some-details .details .info p{
+    color: #FFF;
+    line-height: 2;
+    margin-top: 5px; 
+    text-transform: uppercase;
+}
+.some-details .details .info span{
+    color: #FFF;
+}
+
+/*end section Some Details*/
+
+/*Start section about event*/
+
+.about-event h2{
+    color: #333;
+    padding-bottom:10px ;
+    border-bottom: 3px solid rgba(160, 101, 12,1);
+    width: 231px;
+    margin-bottom: 30px;
+}
+
+.about-event .learn .learn-text{
+    float: left;
+    width: 50%;
+}
+
+.about-event .learn .learn-text .space{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.about-event .learn .learn-text .space:first-child{
+    margin-top: 20px;
+}
+
+.about-event .learn .learn-text .icons  {
+    float: left;
+    width: 20%;
+}
+
+.about-event .learn .learn-text .icons i{
+    width: 60px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    color: #000;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0,.6);
+}
+
+.about-event .learn .learn-text .icons:hover i{
+    color: rgba(160, 101, 12,1);
+    border: 2px solid rgba(160, 101, 12,1);
+    box-shadow: 1px 1px 4px rgba(160, 101, 12,1);
+}
+
+.about-event .learn .learn-text .text{
+    float: left;
+    width: 75%;
+}
+
+.about-event .learn .learn-text .text h3{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-event .learn .learn-text .text p{
+    color: #777;
+    line-height: 1.3;
+}
+
+.about-event .learn .images{
+    float: left;
+    width: 50%;
+}
+
+/*end section About Event*/
+
+/*Strat section Expert*/
+
+.expert h4{
+    color: rgba(160, 101, 12,1);
+    margin: 8px 0;
+}
+
+.expert h2{
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.expert .speaker-info{
+    width: 31%;
+    margin-right: 2.333%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 15px;
+    border:  1px solid rgba(0, 0, 0,.6);
+    position: relative;
+}
+
+.expert .speaker-info::before{
+    content: "";
+    position: absolute;
+    top: 27%;
+    left: -2px;
+    width: 3px;
+    height: 46px;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+.expert .speaker-info:hover::before{
+    background-color: rgba(160, 101, 12,1);
+}
+
+.expert .speaker-info::after{
+    content: "";
+    position: absolute;
+    top: 27%;
+    right: -2px;
+    width: 3px;
+    height: 46px;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+.expert .speaker-info:hover::after{
+    background-color: rgba(160, 101, 12,1);
+}
+
+.expert .speaker-info:hover .information h4{
+    color: rgba(160, 101, 12,1);
+}
+
+.expert .speaker-info  .imag{
+    width: 20%;
+    margin-right:8%;
+    float: left;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.expert .speaker-info .imag img{
+    width: 100%;
+    height: 100%;
+}
+
+.expert .speaker-info .information{
+    float: left;
+    width: 62%;
+}
+
+.expert .speaker-info .information h4{
+    color: #333;
+    margin-bottom: 5px;
+    font-size:18px ;
+}
+
+.expert .speaker-info .information p{
+    line-height: 1.3;
+    color: #444;
+}
+
+.expert .speaker-info .information p span{
+    color: #888;
+}
+
+/*End Section Expert*/
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .some-details .details{
+        width: 47%;
+        margin-right: 3;
+        margin-bottom: 20px;
+    }
+
+    .some-details .details .icon span{
+        left: 100px;
+    }
+
+    .expert .speaker-info .imag{
+        width: 60%;
+        margin-left: 30px ;
+        margin-bottom: 10px;
+    }
+
+    .expert .speaker-info .information{
+        width: 60%;
+        margin-left: 45px ;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .some-details .details{
+        width: 47%;
+        margin-right: 3;
+        margin-bottom: 20px;
+    }
+
+    .some-details .details .icon span{
+        left: 67px;
+    }
+
+    .about-event .learn .learn-text{
+        width: 100%;
+    }
+
+    .expert .speaker-info{
+        width: 47%;
+        margin-right: 3%;
+        text-align: center;
+    }
+
+    .expert .speaker-info .imag{
+        width: 60%;
+        margin-left: 30px ;
+    }
+
+    .expert .speaker-info .information{
+        width: 60%;
+        margin-left: 30px ;
+    }
+    
+} 
+
+@media (max-width: 575.98px) { 
+    .some-details .details{
+        width: 100%;
+        margin-right: 3;
+        margin-bottom: 20px;
+    }
+
+    .some-details .details .icon span{
+        left: 125px;
+    }
+
+    .about-event .learn .learn-text{
+        width: 100%;
+    }
+
+    .expert .speaker-info{
+        width: 47%;
+        margin-right: 3%;
+        text-align: center;
+    }
+
+    .expert .speaker-info .imag{
+        width: 60%;
+        margin-left: 30px ;
+    }
+
+    .expert .speaker-info .information{
+        width: 60%;
+        margin-left: 30px ;
+    }
+ }
