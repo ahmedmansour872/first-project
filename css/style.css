@@ -88,9 +88,9 @@
         width: 550px;
     }
 } 
-@media (max-width: 576px) { 
+@media (max-width: 450px) { 
     .contanier{
-        width: 425px;
+        width: 400px;
     }
 }
 
