@@ -136,7 +136,7 @@
 .spinner{
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 40%;
 }
 
 .spinner > div{
@@ -1792,10 +1792,7 @@ footer .items .information p{
 
 @media (max-width: 576px){
     
-    .spinner{
-        top: 25%;
-        left: 80%;
-    }
+
     /*start header*/
 
     .header .overlay .welcome{
