@@ -136,7 +136,7 @@
 .spinner{
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 30%;
 }
 
 .spinner > div{
@@ -1794,7 +1794,7 @@ footer .items .information p{
     
     .spinner{
         top: 25%;
-        left: 0;
+        left: 80%;
     }
     /*start header*/
 
