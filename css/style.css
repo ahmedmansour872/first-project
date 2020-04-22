@@ -1792,7 +1792,10 @@ footer .items .information p{
 
 @media (max-width: 576px){
     
-
+    .spinner{
+        top: 25%;
+        left: 10%;
+    }
     /*start header*/
 
     .header .overlay .welcome{
