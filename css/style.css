@@ -88,9 +88,9 @@
         width: 550px;
     }
 } 
-@media (max-width: 575px) { 
+@media (max-width: 576px) { 
     .contanier{
-        width: 350px;
+        width: 425px;
     }
 }
 
@@ -1793,8 +1793,8 @@ footer .items .information p{
 @media (max-width: 576px){
     
     .spinner{
-        top: 35%;
-        left: 20%;
+        top: 25%;
+        left: 15%;
     }
     /*start header*/
 

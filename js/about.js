@@ -1,6 +1,12 @@
 $(document).ready(function(){
 
-    $(".posit").delay(3000).fadeOut(1000);
+    $(".navbar .bottom-navbar").css({
+        display:"none",
+    })
+
+    $(".posit").delay(2000).fadeOut(500,function(){
+        $(".navbar .bottom-navbar").css({display:"block",})
+    });
 
     var typed = new Typed('.type', {
         strings: [$(".typed").text()],
