@@ -134,9 +134,9 @@
 }
 
 .spinner{
-    position: absolute;
+    position: relative;
     top: 30%;
-    left: 50%;
+    left: 40%;
 }
 
 .spinner > div{
