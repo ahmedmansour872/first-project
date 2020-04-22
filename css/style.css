@@ -136,7 +136,7 @@
 .spinner{
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 40%;
 }
 
 .spinner > div{
@@ -1793,8 +1793,8 @@ footer .items .information p{
 @media (max-width: 576px){
     
     .spinner{
-        top: 25%;
-        left: 10%;
+        top: 35%;
+        left: 20%;
     }
     /*start header*/
 
